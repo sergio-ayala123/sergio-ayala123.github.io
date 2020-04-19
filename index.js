@@ -2,17 +2,17 @@ window.addEventListener("load", function() {
 
     var item= document.querySelector("#center");
     item.addEventListener("click", function(e){
-
-
+        // REMOVES TASK FROM LIST WHEN X BUTOTN IS PRESSED
         if(e.target.nodeName.toLowerCase() == 'button'){
-                
-            var clicked = e.target;
-
-            if(clicked.parentNode.nodeName.toLowerCase() == 'td'){
-                clicked.parentNode.remove();
-
+             var clicked = e.target.parentNode;
+                if(clicked.nodeName.toLowerCase() == 'td'){
+                    clicked.remove(); 
             }
         }
+        // ******************************************************
+
+
+
 
     })
 
