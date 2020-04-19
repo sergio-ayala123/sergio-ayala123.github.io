@@ -1,0 +1,28 @@
+td {
+    border:solid 1px black;
+    border-spacing:10px;
+    padding: 1em 5em 1em 5em;
+    text-align:center;
+
+}
+
+.header{
+    padding:0em 10em 0em 10em;
+    background-color:green;
+}
+
+#center {
+    margin-left:auto; 
+    margin-right:auto;
+    border-spacing:10px;
+  }
+
+  #item {
+    margin-left:auto; 
+    margin-right:auto;
+    padding:1em;
+  }
+
+ p {
+     text-align:center;
+ }
