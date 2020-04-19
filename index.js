@@ -4,9 +4,14 @@ window.addEventListener("load", function() {
     item.addEventListener("click", function(e){
 
 
-        if(e.target.nodeName.toLowerCase() == 'input'){
+        if(e.target.nodeName.toLowerCase() == 'button'){
+                
             var clicked = e.target;
-            alert(clicked);
+
+            if(clicked.parentNode.nodeName.toLowerCase() == 'td'){
+                clicked.parentNode.remove();
+
+            }
         }
 
     })
