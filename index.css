@@ -22,6 +22,9 @@ td {
     margin-right:auto;
     padding:1em;
   }
+  #time{
+      padding:1em;
+  }
 
  p {
      text-align:center;
