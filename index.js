@@ -21,7 +21,6 @@ window.addEventListener("load", function() {
 
 
 
-Push.create('Hello World!')
 
 
 
