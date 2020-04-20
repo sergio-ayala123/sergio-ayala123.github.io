@@ -12,17 +12,16 @@ window.addEventListener("load", function() {
         }
         // ******************************************************
 
-
+s
 
 
     })
 
 });
 
-
-
-
-
+function notify() {
+    Push.create("hello world");
+}
 
 function addRow() {
     var table = document.getElementById("center");

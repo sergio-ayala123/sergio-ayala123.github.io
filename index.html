@@ -21,12 +21,9 @@
 <p><input type="text" id="item" value="" placeholder="Enter task name"> <button onclick = "addRow()">Add +</button>
   <p><input type = "time" id = "time" value = "" ></p>
 </p>
-<button id = "notify">Notify me</button>
-<script>
-  Push.Permission.GRANTED;
-  Push.create('Hello World!')
+<button id = "notify" onclick="notify()">Notify me</button>
 
-</script>
+
 
 </body>
 </html>
