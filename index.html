@@ -3,6 +3,7 @@
   <head>
     <title>Simple Map</title>
     <script src="index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src = "node_modules/push.js/bin/push.js"></script>
     <link rel = "stylesheet" href= "index.css">
 
@@ -22,14 +23,8 @@
 </p>
 <button id = "notify">Notify me</button>
 <script>
-
-document.getElementById("notify").addEventListener("click", function() {
-  Push.create("hello");
-
-});
-
-
-
+  Push.Permission.GRANTED;
+  Push.create('Hello World!')
 
 </script>
 

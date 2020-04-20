@@ -1,3 +1,4 @@
+
 window.addEventListener("load", function() {
 
     var item= document.querySelector("#center");
@@ -18,9 +19,9 @@ window.addEventListener("load", function() {
 
 });
 
-var d = new Date();
 
 
+Push.create('Hello World!')
 
 
 
