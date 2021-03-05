@@ -19,9 +19,6 @@ s
 
 });
 
-function notify() {
-    Push.create("hello world");
-}
 
 function addRow() {
     var table = document.getElementById("center");
@@ -33,7 +30,7 @@ function addRow() {
         alert(d.getMinutes());
     }  
     else {       
-        testint
+        testintadsf
         var row = table.insertRow(table.length);
         var cell = row.insertCell(table.length);
         cell.innerHTML = x + " <button >X</button><br>" + t.value;        
