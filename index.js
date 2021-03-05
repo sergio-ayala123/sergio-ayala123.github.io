@@ -33,7 +33,7 @@ function addRow() {
         alert(d.getMinutes());
     }  
     else {       
-        
+        testint
         var row = table.insertRow(table.length);
         var cell = row.insertCell(table.length);
         cell.innerHTML = x + " <button >X</button><br>" + t.value;        
